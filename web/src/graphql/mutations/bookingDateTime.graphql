@@ -1,0 +1,6 @@
+mutation CreateBookingDateTime($input: BookingDateTimeInput!) {
+  createBookingDateTime(input: $input) {
+    date
+    time
+  }
+}

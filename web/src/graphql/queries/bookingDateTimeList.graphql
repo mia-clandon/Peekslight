@@ -1,0 +1,6 @@
+query BookingDateTimeList{
+    bookingDateTimeList{
+        date
+        time
+    }
+}

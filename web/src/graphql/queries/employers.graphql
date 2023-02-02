@@ -1,0 +1,8 @@
+query Employers($limit: Int!, $cursor: String) {
+  employers(limit: $limit, cursor: $cursor) {
+    hasMore
+    employers {
+      ...EmployerSnippet
+    }
+  }
+}

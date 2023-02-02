@@ -1,0 +1,7 @@
+query ReviewServiceList{
+    reviewServiceList{
+        title
+        description
+        service
+    }
+}

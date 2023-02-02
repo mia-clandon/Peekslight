@@ -1,0 +1,18 @@
+{
+  "name": "diploma-work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server:gen-env": "cd server && gen-env-types .env -o src/env.d.ts -e .",
+    "server:build": "cd server && tsc",
+    "server:watch": "cd server && tsc -w",
+    "server:dev-dist": "cd server && nodemon dist/index.js",
+    "server:start-dist": "cd server && node dist/index.js",
+    "server:start": "cd server && ts-node src/index.ts",
+    "server:dev": "cd server && nodemon --exec ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

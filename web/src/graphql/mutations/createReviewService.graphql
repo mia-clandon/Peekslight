@@ -1,0 +1,7 @@
+mutation CreateReviewService($input: ReviewServiceInput!) {
+  createReviewService(input: $input) {
+    title
+    description
+    service
+  }
+}

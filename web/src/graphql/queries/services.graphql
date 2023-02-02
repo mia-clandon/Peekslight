@@ -1,0 +1,8 @@
+query Services($limit: Int!, $cursor: String) {
+  services(limit: $limit, cursor: $cursor) {
+    hasMore
+    services {
+      ...ServiceSnippet
+    }
+  }
+}

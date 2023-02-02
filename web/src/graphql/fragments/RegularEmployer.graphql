@@ -1,0 +1,16 @@
+fragment RegularEmployer on Employer {
+  id
+  firstname
+  lastname
+  cardDescription
+  description
+  position
+  email
+  phone
+  password
+  avatar
+  city
+  averageTime
+  createdAt
+  updatedAt
+}

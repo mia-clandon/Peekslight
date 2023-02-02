@@ -1,0 +1,12 @@
+query Employer($id: Float!) {
+  employer(id: $id) {
+    id
+    firstname
+    lastname
+    description
+    position
+    avatar
+    createdAt
+    updatedAt
+  }
+}

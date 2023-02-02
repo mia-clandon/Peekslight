@@ -1,0 +1,7 @@
+mutation CreateParameterEmployer($options: ParametersEmployerInput!) {
+  createParameterEmployer(options: $options) {
+    idEmployer
+    title
+    description
+  }
+}

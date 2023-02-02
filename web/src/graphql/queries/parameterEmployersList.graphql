@@ -1,0 +1,11 @@
+query ParametersEmployerList($limit: Int!, $cursor: String) {
+  parametersEmployerList(limit: $limit, cursor: $cursor) {
+    hasMore
+    parametersEmployer {
+      id
+      idEmployer
+      title
+      description
+    }
+  }
+}

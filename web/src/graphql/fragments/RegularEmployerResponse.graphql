@@ -1,0 +1,8 @@
+fragment RegularEmployerResponse on EmployerResponse {
+  errors {
+    ...RegularError
+  }
+  employer {
+    ...RegularEmployer
+  }
+}

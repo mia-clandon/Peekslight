@@ -1,0 +1,11 @@
+query BookingUserList{
+    bookingUserList{
+        id
+        idService
+        service
+        dateBegin
+        dateBefore
+        fio
+        contact
+    }
+}

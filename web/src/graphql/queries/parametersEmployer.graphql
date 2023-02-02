@@ -1,0 +1,8 @@
+query ParametersEmployer($idEmployer: Float!) {
+  parametersEmployer(idEmployer: $idEmployer) {
+    id
+    idEmployer
+    title
+    description
+  }
+}

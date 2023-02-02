@@ -1,0 +1,5 @@
+mutation CreateEmployer($options: EmployerInput!) {
+  createEmployer(options: $options) {
+    ...RegularEmployerResponse
+  }
+}

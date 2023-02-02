@@ -1,0 +1,8 @@
+query Service($id: Float!) {
+  service(id: $id) {
+    id
+    title
+    description
+    price
+  }
+}
